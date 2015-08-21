@@ -62,8 +62,8 @@
 
 (global-ede-mode 1)
 
-(ede-cpp-root-project "my project" :file "~/dev/c++/prime_plus/usetv.cpp"
-		      :include-path '("/usr/local/include"))
+;; (ede-cpp-root-project "my project" :file "~/dev/c++/prime_plus/usetv.cpp"
+;; 		      :include-path '("/usr/local/include"))
 (global-semantic-idle-scheduler-mode 1)
 
 ;; (setenv "LD_LIBRARY_PATH" "/Library/Developer/CommandLineTools/usr/lib/")
