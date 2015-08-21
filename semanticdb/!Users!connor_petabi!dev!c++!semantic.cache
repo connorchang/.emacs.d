@@ -1,0 +1,58 @@
+;; Object c++/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c++/"
+  :tables
+  (list
+    (semanticdb-table "temp.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("math" include (:system-flag t) nil [28 43])
+            ("float" include (:system-flag t) nil [44 60])
+            ("iostream" include (:system-flag t) nil [61 80])
+            ("string" include (:system-flag t) nil [81 98])
+            ("A" type
+               (:members 
+                  ( ("a" variable (:type "int") (reparse-symbol classsubparts) [113 119])
+                    ("b" variable (:type "int") (reparse-symbol classsubparts) [122 128])
+                    ("c" variable (:type "int") (reparse-symbol classsubparts) [131 137])
+                    ("d" variable (:type "int") (reparse-symbol classsubparts) [140 146]))                  
+                :type "struct")
+                nil [100 149])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [161 170])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [171 184]))                  
+                :type "int")
+                nil [152 344])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [356 365])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [366 379]))                  
+                :type "int")
+                nil [347 398])
+            ("var" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [607 612]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [582 614]))          
+      :file "temp.cpp"
+      :pointmax 615
+      :fsize 614
+      :lastmodtime '(21974 57111 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!connor_petabi!dev!c++!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
